@@ -14,7 +14,7 @@ function Hero({ search, setSearch }) {
     [status]
   );
   return (
-    <div className="flex justify-between items-center bg-teal-900 py-4 px-4 ">
+    <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-between items-center bg-teal-900 py-4 px-4 ">
       <Link href="/">
         <div className="font-alata font-black text-xl text-white hover:text-pink-400">
           <span className="text-2xl">🍿</span> KMDb
@@ -22,7 +22,7 @@ function Hero({ search, setSearch }) {
       </Link>
       <input
         type="text"
-        className="rounded-xl py-2 px-4 sm:px-8  md:px-32 text-center text-black font-bold text-xl border-2 border-teal-200"
+        className="rounded-xl py-2 px-10 sm:px-16  md:px-32 text-center text-black font-bold text-xl border-2 border-teal-200"
         value={search}
         placeholder="Search"
         onChange={(e) => setSearch(e.target.value)}
