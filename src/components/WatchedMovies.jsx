@@ -6,6 +6,7 @@ import StarRating from "./StarRating";
 import WatchedMoviesList from "./WatchedMoviesList";
 import Loader from "./Loader";
 import { useSession } from "next-auth/react";
+
 const KEY = "d438043";
 function WatchedMovies({ selectedId, onCloseMovie }) {
   const { data: session, status } = useSession();
