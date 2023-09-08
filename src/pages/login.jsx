@@ -21,7 +21,7 @@ function LoginPage() {
         <title>KMDb</title>
       </Head>
       <div className="h-screen bg-black flex flex-col items-center justify-center font-bold text-lg md:text-xl">
-        <div className="bg-white rounded-xl px-8 py-6 flex flex-col space-y-4">
+        <div className="bg-white rounded-xl px-8 py-6 flex flex-col space-y-4 text-center md:text-start">
           <div className="flex justify-center pt-2 uppercase text-xl font-black tracking-widest">
             Login to get started
           </div>

@@ -64,7 +64,7 @@ function AppMain() {
         <title>KMDb</title>
       </Head>
       <Hero search={search} setSearch={setSearch} />
-      <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 md:px-32 px-6 py-2 md:py-4 bg-black">
+      <div className="flex flex-col md:flex-row space-y-2 w-full md:space-y-0 md:space-x-4 md:px-32 px-6 py-2 md:py-4 bg-black">
         <Movies
           movies={movies}
           onSelectedMovie={handleSelectedMovie}
