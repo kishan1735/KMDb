@@ -27,7 +27,7 @@ function AppMain() {
           setIsLoading(true);
           setError("");
           const res = await fetch(
-            `http://www.omdbapi.com/?apikey=${KEY}&s=${search}`,
+            `https://www.omdbapi.com/?apikey=${KEY}&s=${search}`,
             { signal: controller.signal }
           );
           if (!res.ok)
