@@ -144,7 +144,7 @@ function WatchedMovies({ selectedId, onCloseMovie }) {
         <Loader />
       ) : selectedId ? (
         <div className="flex flex-col space-y-4">
-          <header className="flex space-x-8 border-b border-teal-950 shadow-sm shadow-teal-950 py-4 px-4">
+          <header className="flex spcae-y-4 md:space-x-8 border-b border-teal-950 shadow-sm shadow-teal-950 py-4 px-4">
             <button
               className="bg-teal-200 rounded-full my-12 mr-2 px-4 py-3 text-xl font-bold text-black"
               onClick={onCloseMovie}
