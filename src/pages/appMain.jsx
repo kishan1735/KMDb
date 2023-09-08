@@ -3,6 +3,7 @@ import Hero from "@/components/hero";
 import Movies from "@/components/movies";
 import Head from "next/head";
 import { useState, useEffect } from "react";
+
 const KEY = "d438043";
 
 function AppMain() {
