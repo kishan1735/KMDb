@@ -59,7 +59,7 @@ function AppMain() {
     [search]
   );
   return (
-    <div className="w-screen">
+    <div className="">
       <Head>
         <title>KMDb</title>
       </Head>
