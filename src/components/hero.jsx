@@ -1,6 +1,7 @@
 import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 import { useEffect } from "react";
+import "dotenv/config";
 
 function Hero({ search, setSearch }) {
   const { data: session, status } = useSession();
@@ -29,7 +30,7 @@ function Hero({ search, setSearch }) {
       {session ? (
         <button
           className="text-teal-900 font-bold text-xl px-2 py-1 border-teal-800 border-2-2 bg-teal-400 hover:bg-teal-800 hover:border-teal-400 hover:text-teal-400"
-          onClick={() => signOut({ callbackUrl: "http://localhost:3000" })}
+          onClick={() => signOut({ callbackUrl: process.env.NEXTAUTH_URL })}
         >
           Signout
         </button>
