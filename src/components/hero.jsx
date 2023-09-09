@@ -23,7 +23,7 @@ function Hero({ search, setSearch }) {
       <input
         type="text"
         className="rounded-xl py-2 px-10 sm:px-16  md:px-32 text-center text-black font-bold text-xl border-2 border-teal-200"
-        value={search}
+        value={search.toLowerCase()}
         placeholder="Search"
         onChange={(e) => setSearch(e.target.value)}
       />
