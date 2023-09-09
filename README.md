@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+The App was built using Nextjs and authorisation part was done using NextAuth
+
+U can basically search any movie, click and select it, rate it and add to your watched list.
+
+Refreshing the page doesn't remove ur Watched movies due to local storage. Only when u manually delete stuff or Signout u lose ur Watched movies.
 
 ## Getting Started
 
@@ -22,14 +26,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+\
 
 ## Deploy on Vercel
 
